@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <file name="FeatureRecognizeServer.dll" hashalg="SHA1">
+    <comClass clsid="{8A16C6B9-F8A2-4A43-A913-5DF8D84A0D7B}" tlbid="{9A6826B0-EECC-41FB-806B-36AEBA389D0A}" description="FRManager Class" threadingModel="Apartment" progid="FeatureRecognizeServer.FRManager">
+      <progid>FeatureRecognizeServer.FRManager.1</progid>
+    </comClass>
+    <typelib tlbid="{9A6826B0-EECC-41FB-806B-36AEBA389D0A}" version="1.0" helpdir="" flags="HASDISKIMAGE"></typelib>
+  </file>
+  <comInterfaceExternalProxyStub name="IFRManager" iid="{B249B4AC-01E8-4081-8D02-F81C57F52BEF}" tlbid="{9A6826B0-EECC-41FB-806B-36AEBA389D0A}" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"></comInterfaceExternalProxyStub>
+</assembly>
