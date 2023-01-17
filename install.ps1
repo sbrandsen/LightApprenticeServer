@@ -5,6 +5,10 @@ Read-Host -Prompt "Apprentice Server is already installed"
 exit
 }
 
+Write-Host ""
+Write-Host "Downloading data: Estimated amount of bytes: 54000000"
+Write-Host ""
+
 # Create a variable to store the total number of steps
 $totalSteps = 5
 
