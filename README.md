@@ -4,7 +4,7 @@ Install the Autodesk Apprentice Server without any extra dependencies. Tested fo
 Installing any of these will overwrite this program. To fully delete, delete %ProgramData%\Apprenticeserver
 
 # To install:
-Run install.ps1 as admin
+Run install.ps1 as admin or setup.vbs to bypass powershell security
 
 # WHY?
 Apprentice install is now < 150mb instead of 600mb
