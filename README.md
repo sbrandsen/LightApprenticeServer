@@ -15,6 +15,10 @@ It prevents the install of the following programs:
 
 Which are **NOT** required for this free software
 
+Apprentice Server can be used to read iProperties data and other metadata from Inventor files. Using Apprentice Server instead of the Inventor API can make reading this metadata so fast that it can be used for live syncing with a database or Excel file.
+
+#What does it do?
+
 The PowerShell script performs the following actions:
 
 1. It checks if a specific registry key "HKEY_CLASSES_ROOT\CLSID{C343ED84-A129-11d3-B799-0060B0F159EF}\InprocServer32" exists, if it does it prompts a message "Apprentice Server is already installed" and exit
