@@ -12,11 +12,7 @@ $totalSteps = 5
 $currentStep = 1
 
 # Download the zip file
-Write-Progress -Activity "Downloading zip file" -Status "Step $currentStep of $totalSteps" -PercentComplete (($currentStep / $totalSteps) * 100)
-Write-Host ""
-Write-Host "Downloading data: Estimated amount of bytes: 54000000"
-Write-Host ""
-
+Write-Progress -Activity "Downloading zip file, Estimated amount of bytes: 55000000" -Status "Step $currentStep of $totalSteps" -PercentComplete (($currentStep / $totalSteps) * 100)
 Invoke-WebRequest -Uri "https://github.com/sbrandsen/LightApprenticeServer/archive/refs/heads/main.zip" -OutFile "$env:USERPROFILE\Downloads\zipfile.zip"
 
 # Update the current step variable
