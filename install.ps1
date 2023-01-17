@@ -5,10 +5,6 @@ Read-Host -Prompt "Apprentice Server is already installed"
 exit
 }
 
-Write-Host ""
-Write-Host "Downloading data: Estimated amount of bytes: 54000000"
-Write-Host ""
-
 # Create a variable to store the total number of steps
 $totalSteps = 5
 
@@ -17,6 +13,10 @@ $currentStep = 1
 
 # Download the zip file
 Write-Progress -Activity "Downloading zip file" -Status "Step $currentStep of $totalSteps" -PercentComplete (($currentStep / $totalSteps) * 100)
+Write-Host ""
+Write-Host "Downloading data: Estimated amount of bytes: 54000000"
+Write-Host ""
+
 Invoke-WebRequest -Uri "https://github.com/sbrandsen/LightApprenticeServer/archive/refs/heads/main.zip" -OutFile "$env:USERPROFILE\Downloads\zipfile.zip"
 
 # Update the current step variable
