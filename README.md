@@ -17,7 +17,7 @@ Which are **NOT** required for this free software
 
 Apprentice Server can be used to read iProperties data and other metadata from Inventor files. Using Apprentice Server instead of the Inventor API can make reading this metadata so fast that it can be used for live syncing with a database or Excel file.
 
-Using this installer instead of the official one is way quicker, and is also friendly to weaker PC's since it uses no background services at all.
+Using this installer instead of the official one is way quicker, and is also friendly to weaker PC's since it uses no background services at all. By making it a powershell script and small in size it is perfect for installing it if there is a dependency for a third party program.
 
 # What does it do?
 
