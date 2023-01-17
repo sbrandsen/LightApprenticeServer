@@ -6,6 +6,7 @@ Installing any of these will overwrite this program. To fully delete, delete %Pr
 # To install:
 Run install.ps1 as admin
 
+# WHY?
 Apprentice install is now < 150mb instead of 600mb
 It prevents the install of the following programs:
 - **Autodesk Single Sign-On** allows users to access different Autodesk products with one set of login credentials.
